@@ -1,0 +1,178 @@
+html, body {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	margin: 0;
+	
+	background: #14181c url(img/background.png) 0 -1px repeat-x;
+	font-family: Graphik-Regular-Web, sans-serif;
+	font-size: 13px;
+}
+
+/* header */
+header {
+	width: 100%;
+	height: 6vh;
+	min-height: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	padding: 1% 0;
+	
+	background-color: #14181C;
+}
+
+.logo {
+	height: 100%;
+}
+
+.logo img {
+	height: 90%;
+	margin: 0;
+}
+/* fim header */
+
+section {
+	min-width: 400px;
+	width: 75%;
+	height: 100%;
+	margin: 2% 0 1% 0;
+	text-align: center;
+}
+
+.conteiner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* index.html */
+.catalog {
+	width: 80%;
+	height: 90%;
+	display: grid;
+	grid-template: auto / 1fr 1fr 1fr 1fr;
+}
+
+.poster {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	margin: 0 1.5%;
+	color: #fff;
+	text-decoration: none;
+	text-weight: 500;
+}
+
+.poster img {
+	max-width: 100%;
+	height: 80%;
+	border: 1px solid aliceblue;
+}
+
+.poster p {
+	width: 80%;
+	height: 10%;
+	text-align: center;
+	
+	margin: 0;
+	background-color: #678;
+}
+/* fim do index */
+
+.subtitulo {
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	
+	margin: 3% auto;
+	border-bottom: 1px solid #456;
+	padding-bottom: 5px;
+	
+	color: #9ab;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .075em;
+}
+
+.conteudo, .conteudoD {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 4% auto;
+	align-items: center;
+	justify-content: center;
+}
+
+/* username */
+input[type=text], input[type=date] {
+	width: 28%;
+	min-height: 22px;
+	height: 2vw;
+	
+	margin: 1%;
+}
+
+input[type=date] {
+	width: 20%;
+}
+
+/* arquivo selecionado */
+input[type=file] {
+	width: 43%;
+	
+	margin: 1%;
+	
+	text-decoration: none;
+	color: #05D050;
+}
+
+/* username, seletor de arquivo, seletor de data */
+input[type=text], input[type=file]::file-selector-button, input[type=date] {
+	border: 0.1rem transparent solid;
+	border-bottom-color: #456;
+	border-radius: 0.2rem;
+	
+	background-color: #2D3540;
+	color: #9ab;
+}
+
+/* botão enviar */
+button {
+	min-width: 140px;
+	width: 20%;
+
+	border: 0.1rem transparent solid;
+	border-top-color: #456;
+	border-radius: 0.2rem;
+	
+	background-color: #05D050;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* pós análise */
+#resultado {
+	font-family: Graphik-Light-Web, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #9ab;
+	text-decoration: none;
+	letter-spacing: .075em;
+	line-height: 7vh;
+}
+
+#resultado span {
+	border-bottom: 1px solid #678;
+	color: #fff;
+}
+/* fim do pós anállise */

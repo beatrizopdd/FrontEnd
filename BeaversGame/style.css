@@ -1,0 +1,60 @@
+html, body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+body {
+	align-items: center;
+	background-color: #CFD86F;
+}
+
+.calculadora {
+	width: 80%;
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	padding: 1.5rem 0;
+	border-radius: 1rem;
+	
+	background-color: #4F4138;
+}
+
+.display {
+	width: 75%;
+	font-size: 1.5rem;
+	display: block;
+	text-align: right;
+	
+	margin: 0;
+	border-radius: 1rem;
+	padding: 1.5rem 0.6rem;
+	
+	background-color: #8AC7BF;
+}
+
+.teclado {
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+	justify-items: center;
+	
+	margin-top: 1.5rem;
+}
+
+button {
+	width: 60px;
+	height: 60px;
+	
+	margin: 0.3rem 0.6rem;
+	border-radius: 100%;
+	
+	background-color: #FAFEFF;
+}
+
+#delete, #envia {
+	background-color: #E97BA8;
+	border-color: #E97BA8;
+}
