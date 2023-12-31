@@ -11,15 +11,15 @@
 - **JavaScript** - Linguagem de script;
 - **Firefox** - Navegador;
 
-### :abacus: Beaver's Game
+## :abacus: Beaver's Game
 
 > Aplicação no formato de calculadora que recebe do usuário um número e retorna o animal correspondente com base na tabela. 
 
 
 
-<img height="200" src=".img/bg1.png">
-<img height="200" src=".img/bg2.png">
-<img height="200" src=".img/bg3.png">
+<img width="500" height="200" src=".img/bg1.png">
+<img width="500" height="200" src=".img/bg2.png">
+<img width="500" height="200" src=".img/bg3.png">
 
 ## :bookmark_tabs: Funcionamento do programa
 
