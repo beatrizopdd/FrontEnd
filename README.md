@@ -2,7 +2,7 @@
 
 ## :scroll: Introdução
 
-> Repositório formado por pequenas aplicações realizadas durante o estudo do Front-End.
+> Repositório formado por pequenas aplicações realizadas durante o estudo de tecnologias para Front-End.
 
 ## :gear: Ferramentas
 
@@ -11,12 +11,18 @@
 - **JavaScript** - Linguagem de script;
 - **Firefox** - Navegador;
 
-### :abacus: Inicialização
+### :abacus: Beaver's Game
 
-> Calculadora que retorna o animal correspondente ao número dado pelo usuário. 
+> Aplicação no formato de calculadora que recebe do usuário um número e retorna o animal correspondente com base na tabela. 
+
+
+
+<img height="200" src=".img/bg1.png">
+<img height="200" src=".img/bg2.png">
+<img height="200" src=".img/bg3.png">
 
 ## :bookmark_tabs: Funcionamento do programa
-<fig> <img src="GoodSkoobFluxograma.png"> </fig>
+
 
 ## :pushpin: Contato
 
