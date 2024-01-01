@@ -1,0 +1,147 @@
+body {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	margin: 0;
+	
+	background: #14181c url(../img/background.png) 0 -1px repeat-x;
+	font-family: Graphik-Regular-Web, sans-serif;
+	font-size: 13px;
+}
+
+
+/* header */
+header {
+	width: 100%;
+	height: 8vh;
+	min-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 1% 0;
+	background-color: #14181C;
+}
+
+.logo {
+	width: 71.5%;
+	height: 52%;
+} 
+
+.logo img {
+	height: 100%;
+	margin: 0;
+}
+/* fim header */
+
+
+/* conteiners */
+section {
+	min-width: 400px;
+	width: 75%;
+	margin: 0.5% 0 0 0;
+	text-align: left;
+}
+
+h3 {
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	
+	margin: 3% auto;
+	border-bottom: 1px solid #456;
+	padding-bottom: 5px;
+	
+	color: #9ab;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	letter-spacing: .075em;
+}
+
+div {
+	width: fit-content;
+	min-width: 335px;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 2% 2.5%;
+}
+/* fim conteiners */
+
+/* username, seletor de arquivo, seletor de data */
+input[type=text], input[type=file]::file-selector-button, input[type=date] {
+	border: 0.1rem transparent solid;
+	border-bottom-color: #456;
+	border-radius: 0.2rem;
+	
+	background-color: #2D3540;
+	color: #9ab;
+}
+
+/* username e data */
+input[type=text], input[type=date] {
+	width: 60%;
+	min-height: 22px;
+	height: 2vw;
+	
+	margin: 4% 0;
+}
+
+/* seletor de arquivo */
+input[type=file] {
+	margin: 1% 0;
+	
+	text-align: left;
+	text-decoration: none;
+	color: #40BCF4;
+}
+
+
+/* botão enviar */
+button {
+	width: fit-content;
+
+	margin: 0 2.5%;
+	border: 0.1rem transparent solid;
+	border-top-color: #456;
+	border-radius: 0.2rem;
+	padding: 0 1.5%;
+	
+	background-color: #00AC1C;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+
+	.logo {
+		text-align: center;
+	}
+}
+
+/* pós análise */
+.resultado {
+	width: 100%;
+	min-width: 335px;
+	display: block;
+	margin: 2% 2.5%;
+}
+
+.resultado span {
+	color: #fff;
+}
+
+a:visited, .resultado {
+	font-family: Graphik-Light-Web, sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #9ab;
+	text-decoration: none;
+	letter-spacing: .075em;
+	line-height: 7vh;
+}
+/* fim do pós anállise */

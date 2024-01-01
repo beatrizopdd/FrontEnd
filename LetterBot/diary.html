@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR" enctype="text/html">
+
+	<head>
+		<title>LetterBot</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<a class="logo" href="index.html">
+				<img src="img/letterbotLogo.png">
+			</a>
+		</header>
+		
+		<section id="diary">
+			<h3> Diary </h3>
+			
+			<div class="diary">
+				<input type="date" id="data">
+				<input type="text" name="userName" placeholder="Username">
+				<input type="file" name="userFile" accept=".csv">
+			</div>
+			
+			<button onclick="analisar()">LOG</button>
+		</section>
+		
+		<section class="resultado"> </section>
+	
+	</body>
+	
+</html>

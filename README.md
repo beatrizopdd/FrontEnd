@@ -53,3 +53,9 @@
 <img width="90%" src=".src/CourseCheck.gif">
 
 <img width="90%" src=".src/fluxograma.png">
+
+## :clapper: LetterBot
+
+> Ferramenta para comparar registros do Letterboxd de dois usuários.
+
+<img width="90%" src=".src/LetterBot.gif">
