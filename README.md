@@ -52,7 +52,7 @@
 
 <img width="600" src=".src/CourseCheck.gif">
 
-<img width="600" src=".src/fluxograma.png">
+<img width="100%" src=".src/fluxograma.png">
 
 ## :pushpin: Contato
 
