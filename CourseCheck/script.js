@@ -31,15 +31,15 @@ function atualizaDisciplinas() {
 		
 		// cursada
 		if (disciplina.checked) {
-			disciplina.nextSibling.style.color = "#0F8C3B";
+			disciplina.nextSibling.style.color = "#03A688";
 		
 		// pode cursar
 		} else if (curriculo[i][2] == 0) {
-			disciplina.nextSibling.style.color = "#F29E38";
+			disciplina.nextSibling.style.color = "#D96704";
 		
 		// não pode cursar
 		} else {
-			disciplina.nextSibling.style.color = "white";
+			disciplina.nextSibling.style.color = "black";
 		}
 			
 	}

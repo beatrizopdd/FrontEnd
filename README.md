@@ -15,7 +15,7 @@
 
 > Aplicação no formato de calculadora que recebe do usuário um número e retorna o animal correspondente com base na tabela. 
 
-<img align="center" width="90%" src=".src/BeaversGame.gif">
+<img width="90%" src=".src/BeaversGame.gif">
 
 | Grupo | Números           | Animal    |
 | ----- | ----------------- | --------- |
@@ -48,7 +48,7 @@
 
 ## :memo: Course Check
 
-> Checklist para acompanhar o progresso acadêmico. A aplicação permite que você marque as disciplinas concluídas e obtenha as que já atendem os pré-requisitos para serem cursadas
+> Aplicação que permite que você marque as disciplinas concluídas e obtenha as que já cumprem os pré-requisitos para serem cursadas.
 
 <img width="90%" src=".src/CourseCheck.gif">
 

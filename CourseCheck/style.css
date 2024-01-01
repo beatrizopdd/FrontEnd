@@ -8,8 +8,8 @@ body {
 	margin: 0.5%;
 	
 	font-family: arial;
-	color: white;
-	background-color: #0F4020;
+	color: black;
+	background-color: #8BCAD9;
 }
 
 .periodo {
@@ -17,11 +17,12 @@ body {
 	grid-template-columns: 25px max-content;
 	align-items: center;
 	
-	margin: 0.6% 1%;
-	border: 1px dashed #56A689;
+	margin: 0.5%;
+	border: 2px double #F26699;
 	padding: 1% 0.5%;
 	
-	font-size: 0.8rem;
+	font-size: 78%;
+	background-color: #F2F2F2;
 }
 
 input {
@@ -30,6 +31,16 @@ input {
 }
 
 button {
-	width: 10%;
+	width: 20%;
 	margin: auto 0;
+	border: 2px double #F2BDD0;
+	background-color: #F26699;
+	color: #fff;
+}
+
+@media (max-width: 600px) {
+
+	.periodo {
+		width: 80%;
+	}
 }
