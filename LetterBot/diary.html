@@ -2,18 +2,18 @@
 <html lang="pt-BR" enctype="text/html">
 
 	<head>
-		<title>LetterBot</title>
+		<title>LetterBot - Diary</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css"/>
-		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" href="src/style.css"/>
+		<script type="text/javascript" src="src/script.js"></script>
 	</head>
 
 	<body>
 
 		<header>
 			<a class="logo" href="index.html">
-				<img src="img/letterbotLogo.png">
+				<img src="src/img/letterbotLogo.png">
 			</a>
 		</header>
 		
@@ -21,15 +21,20 @@
 			<h3> Diary </h3>
 			
 			<div class="diary">
-				<input type="date" id="data">
-				<input type="text" name="userName" placeholder="Username">
-				<input type="file" name="userFile" accept=".csv">
+				<input type="text" name="userName" placeholder="Username" autocomplete="off">
+				<input type="date" id="data" autocomplete="off">
+				<input type="file" name="userFile" id="1" accept=".csv" onchange="abrirArquivo(this)" autocomplete="off">
 			</div>
 			
-			<button onclick="analisar()">LOG</button>
+			<button onclick="analisar(2)">LOG</button>
 		</section>
 		
-		<section class="resultado"> </section>
+		<section>
+			<h3> Resultado </h3>
+			
+			<div id="texto"></div>
+			
+		</section>
 	
 	</body>
 	

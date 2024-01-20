@@ -7,9 +7,11 @@ body {
 	
 	margin: 0;
 	
-	background: #14181c url(../img/background.png) 0 -1px repeat-x;
+	background: #14181c url(img/background.png) 0 -1px repeat-x;
 	font-family: Graphik-Regular-Web, sans-serif;
 	font-size: 13px;
+	color: #9ab;
+	text-decoration: none;
 }
 
 
@@ -51,24 +53,24 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	
-	margin: 3% auto;
+	margin: 2.5% auto;
 	border-bottom: 1px solid #456;
 	padding-bottom: 5px;
-	
-	color: #9ab;
-	font-weight: 400;
-	text-decoration: none;
+
 	text-transform: uppercase;
 	font-size: 100%;
+	font-weight: unset;
 	letter-spacing: .075em;
 }
 
 div {
-	width: fit-content;
+	width: 55%;
 	min-width: 335px;
 	display: grid;
-	grid-template-columns: 1fr;
-	margin: 2% 2.5%;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2%;
+	
+	margin: 4% 2.5%;
 }
 /* fim conteiners */
 
@@ -105,7 +107,7 @@ input[type=file] {
 button {
 	width: fit-content;
 
-	margin: 0 2.5%;
+	margin: 2% 2.5%;
 	border: 0.1rem transparent solid;
 	border-top-color: #456;
 	border-radius: 0.2rem;
@@ -116,32 +118,37 @@ button {
 	text-transform: uppercase;
 }
 
-@media (max-width: 500px) {
+
+/* pós análise */
+#texto {
+	display: block;
+	
+	font-family: Graphik-Light-Web, sans-serif;
+	font-size: 0.897rem;
+
+	letter-spacing: .075em;
+	line-height: 150%;
+}
+
+a:visited, #texto span {
+	font-weight: 600;
+	color: aliceblue;
+	
+}
+/* fim do pós anállise */
+
+
+@media (max-width: 640px) {
 
 	.logo {
 		text-align: center;
 	}
+	
+	h3 {
+		margin: 8% auto 5%;
+	}
+	
+	div {
+		width: 95%;
+	}
 }
-
-/* pós análise */
-.resultado {
-	width: 100%;
-	min-width: 335px;
-	display: block;
-	margin: 2% 2.5%;
-}
-
-.resultado span {
-	color: #fff;
-}
-
-a:visited, .resultado {
-	font-family: Graphik-Light-Web, sans-serif;
-	font-size: 0.9rem;
-	font-weight: 400;
-	color: #9ab;
-	text-decoration: none;
-	letter-spacing: .075em;
-	line-height: 7vh;
-}
-/* fim do pós anállise */
